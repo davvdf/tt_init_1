@@ -26,7 +26,7 @@ module tt_um_tri_state_counter (
     .en(uio_in[0]),
     .ld(uio_in[1]),
     .d_in(ui_in),
-    .d_out(uo_out),
+    .d_out(uo_out)
   );
 
   // List all unused inputs to prevent warnings
